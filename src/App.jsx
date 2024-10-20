@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Basic } from './basicForm/Basic';
 import { Advance } from './advance/Advance';
-import "./app.css"
+import "./App.css"
 // import MyRegister from './myRegis/MyRegister';
 // import Register from './registerform/Register';
 
