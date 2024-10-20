@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="date"],
+
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 90%;
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .gender{
+    width: 95%;
+  }
+
+  .inputBtn {
+    width: 96%;
+    padding: 8px;
+    /* background-color: #28a745; */
+    /* color: white; */
+    /* border: none; */
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .form-check{
+    display: flex;
+    margin: 10px 0;
+  }
+
+  .form-check label{
+    align-items: center;
+    margin: 5px;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }

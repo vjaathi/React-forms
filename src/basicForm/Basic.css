@@ -1,0 +1,59 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .subBtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+input,
+select {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group select{
+    width: 96%;
+}
+
+.terms{
+    display: flex;
+}
+
+.terms input{
+    width: 25px;
+}
+
+.form-group label{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+input.error,
+select.error {
+  border: 2.4px solid red;
+}
